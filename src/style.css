@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+h1{
+    color: white;
+}
+body{
+    background-color: rgb(108, 108, 108);
+}
+main{
+    margin-top: 30px;
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#listaChamados{
+    background-color: rgb(220, 220, 220);
+    height: 500px;
+    resize: none;
+    border-radius: 20px;
+    border: solid 2px black;
+    overflow-y: scroll;
+    text-align: center;
+    margin-left: -10px;
+    padding: 40px 120px;
+    font-size: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.511)
+}
+#legenda{
+ position: relative;
+ top: 30px;
+ background-color: rgb(220, 220, 220);;
+ padding: 9px 10px 2px 10px;
+ box-shadow: 0px 8px 15px rgb(220, 220, 220);;
+} 
+#corpo{
+    width: 550px;
+    padding: 0px;
+    text-align: center;
+}
+
+/*Estilização da barra*/
+
+*::-webkit-scrollbar {
+    width: 7px;
+
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(196, 196, 196);
+    border-radius: 40px;
+    padding: 0px;
+    position: absolute;
+    margin: 15px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: gray;
+    width: 2px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+  }
