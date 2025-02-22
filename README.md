@@ -10,7 +10,8 @@ Neste projeto, utilizamos um **descritor de cor** baseado em **histograma HSV**.
 
 ## Repositório do Projeto
 - https://colab.research.google.com/drive/1NENgnd9sWcy6mfw_bvXlJ3vbedL-TEDk?usp=sharing
-
+- https://github.com/CheweeBR/Processamento-de-imagens
+  
 ## Classificador e Acurácia
 - **Classificador**: SVM (kernel='linear')  
 - **Acurácia obtida**: aproximadamente **98%**  
